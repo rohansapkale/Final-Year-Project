@@ -1,6 +1,13 @@
-opencv-python
-tensorflow
-keras
-numpy
-matplotlib
-scikit-learn
+# Core libraries
+tensorflow==2.15.0
+numpy==1.24.4
+opencv-python==4.9.0.80
+flask==2.3.3
+# For live webcam streaming via Flask
+flask-socketio==5.3.6
+eventlet==0.33.3
+# Optional utilities
+Werkzeug==2.3.7
+Pillow==10.2.0
+# For serving models or debugging
+gunicorn==21.2.0
